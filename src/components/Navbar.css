@@ -1,0 +1,19 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  font-size: 2rem;
+  color: #37d0ac;
+}
+
+.minty {
+  font-size: 1rem;
+  color: #37d0ac;
+}
+
+.purple {
+  color: #9d74f5;
+}
