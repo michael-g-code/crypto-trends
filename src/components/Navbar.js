@@ -1,10 +1,11 @@
 import React from "react";
 import { FaCoins } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 function Navbar() {
   return (
-    <div>
+    <Link className="link" to="/">
       <div className="navbar">
         <FaCoins className="icon" />
         <h1>
@@ -12,7 +13,7 @@ function Navbar() {
           <span className="minty">search</span>
         </h1>
       </div>
-    </div>
+    </Link>
   );
 }
 

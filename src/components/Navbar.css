@@ -4,6 +4,10 @@
   align-items: center;
 }
 
+.link {
+  text-decoration: none;
+}
+
 .icon {
   font-size: 2rem;
   color: #37d0ac;
